@@ -1,7 +1,6 @@
 // npm
 import "core-js";
 import express from "express";
-import globalRouter from "./routers/globalRouter";
 
 // 필수 middleware
 import morgan from "morgan";
@@ -11,6 +10,7 @@ import bodyParser from "body-parser";
 
 //
 import routes from "./routes";
+import globalRouter from "./routers/globalRouter";
 import { localsMiddleware } from "./middleware";
 
 const app = express();
