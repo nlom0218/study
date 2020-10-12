@@ -1,0 +1,32 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "entry",
+          "corejs": 3
+        }
+      ]
+    ]
+  }
+
+// babel은 최신 자바스크립트 문법을 사용할 수 있도록 해준다
+// 매우매우 유용하다. 
+// ***babel 설치과정***
+
+// npm install ＠babel/core
+
+// npm install ＠babel/node
+
+// npm install ＠babel/preset-env
+
+// npm install core-js＠3
+
+// 이후 package.json의 scripts에서 node 앞에 'babel-'추가
+
+// .babelrc(바벨 설정파일) 생성 후 위와 같은 코드 작성
+
+// app.js 제일 윗줄에 아래의 코드 추가하면 끝!
+// import "core-js"
+
+// https://nomadcoders.co/wetube/lectures/14/issues/89

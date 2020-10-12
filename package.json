@@ -2,10 +2,25 @@
   "name": "study",
   "version": "1.0.0",
   "description": "Study Nodejs and Express(JavaScript)",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "KHD",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "app.js",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
