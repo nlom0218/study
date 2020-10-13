@@ -1,9 +1,11 @@
 const HOME = "/";
-const TEST = "/test";
+const DEBUGGING = "/debuggingg";
+const DATATYPE = "/dateType";
 
 const routes = {
   home: HOME,
-  test: TEST,
+  debuggingg: DEBUGGING,
+  dataType: DATATYPE,
 };
 
 export default routes;

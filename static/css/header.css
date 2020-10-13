@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  background-color: #f3d8ff;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.header .header__content {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__content a {
+  color: #664c7f;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.header__content h2 {
+  color: #664c7f;
+  font-size: 26px;
+  font-weight: 700;
+}

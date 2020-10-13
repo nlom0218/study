@@ -27,6 +27,8 @@ app.use(morgan("dev"));
 // 전역 미들웨어
 app.use(localsMiddleware);
 
+app.use("/static", express.static("static"));
+
 app.use(routes.home, globalRouter);
 
 //////////////////////////////////////////////////////////
