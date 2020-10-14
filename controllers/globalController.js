@@ -9,3 +9,15 @@ export const debuggingg = (req, res) => {
 export const dataType = (req, res) => {
   res.render("dataType", { pageTitle: "Data Type" });
 };
+
+export const operator = (req, res) => {
+  res.render("operator", { pageTitle: "Operator" });
+};
+
+export const control = (req, res) => {
+  res.render("control", { pageTitle: "Control flow statment" });
+};
+
+export const object = (req, res) => {
+  res.render("object", { pageTitle: "Object" });
+};
