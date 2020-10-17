@@ -29,3 +29,11 @@ export const basicTerm = (req, res) => {
 export const scope = (req, res) => {
   res.render("scope", { pageTitle: "Scope" });
 };
+
+export const variableKeyword = (req, res) => {
+  res.render("variableKeyword", { pageTitle: "Variable Keyword" });
+};
+
+export const propertyAttribute = (req, res) => {
+  res.render("propertyAttribute", { pageTitle: "Property Attribute" });
+};

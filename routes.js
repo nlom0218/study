@@ -6,6 +6,8 @@ const CONTROL_STATE = "/control";
 const OBJECT = "/object";
 const BASIC_TERM = "/basic-term";
 const SCOPE = "/scope";
+const VARIABLE_KEYWORD = "/variable-keyword";
+const PROPERTY_ATTRIBUTE = "/property-attribute";
 
 const routes = {
   home: HOME,
@@ -16,6 +18,8 @@ const routes = {
   object: OBJECT,
   basicTerm: BASIC_TERM,
   scope: SCOPE,
+  variableKeyword: VARIABLE_KEYWORD,
+  propertyAttribute: PROPERTY_ATTRIBUTE,
 };
 
 export default routes;
