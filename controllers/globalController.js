@@ -21,3 +21,11 @@ export const control = (req, res) => {
 export const object = (req, res) => {
   res.render("object", { pageTitle: "Object" });
 };
+
+export const basicTerm = (req, res) => {
+  res.render("basicTerm", { pageTitle: "Basic Term" });
+};
+
+export const scope = (req, res) => {
+  res.render("scope", { pageTitle: "Scope" });
+};

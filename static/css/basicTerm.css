@@ -1,0 +1,16 @@
+.term .term_list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px;
+}
+
+.term_list .term__name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.term_list .term__content {
+  font-size: 16px;
+  font-weight: 300;
+}

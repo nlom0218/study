@@ -1,8 +1,10 @@
 extends ./layouts/main.pug
 
 block content
-    h3.list-title Study List
+    h3.content-title Study List
     ul
+        li.study-list
+            a(href=`${routes.basicTerm}`) Basic Term🖍
         li.study-list
             a(href=`${routes.debuggingg}`) Debugging
         li.study-list
@@ -13,3 +15,5 @@ block content
             a(href=`${routes.control}`) Control flow statement
         li.study-list
             a(href=`${routes.object}`) Object
+        li.study-list
+            a(href=`${routes.scope}`) Scope            

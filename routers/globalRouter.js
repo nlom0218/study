@@ -7,6 +7,8 @@ import {
   operator,
   control,
   object,
+  basicTerm,
+  scope,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -17,5 +19,7 @@ globalRouter.get(routes.dataType, dataType);
 globalRouter.get(routes.operator, operator);
 globalRouter.get(routes.control, control);
 globalRouter.get(routes.object, object);
+globalRouter.get(routes.basicTerm, basicTerm);
+globalRouter.get(routes.scope, scope);
 
 export default globalRouter;
