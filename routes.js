@@ -8,6 +8,7 @@ const BASIC_TERM = "/basic-term";
 const SCOPE = "/scope";
 const VARIABLE_KEYWORD = "/variable-keyword";
 const PROPERTY_ATTRIBUTE = "/property-attribute";
+const CONSTRUCTOR = "/consturctor";
 
 const routes = {
   home: HOME,
@@ -20,6 +21,7 @@ const routes = {
   scope: SCOPE,
   variableKeyword: VARIABLE_KEYWORD,
   propertyAttribute: PROPERTY_ATTRIBUTE,
+  constructor: CONSTRUCTOR,
 };
 
 export default routes;

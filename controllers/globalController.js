@@ -37,3 +37,7 @@ export const variableKeyword = (req, res) => {
 export const propertyAttribute = (req, res) => {
   res.render("propertyAttribute", { pageTitle: "Property Attribute" });
 };
+
+export const constructor = (req, res) => {
+  res.render("constructor", { pageTitle: "constructor" });
+};
