@@ -12,6 +12,8 @@ import {
   variableKeyword,
   propertyAttribute,
   constructor,
+  prototype,
+  thisKeyword,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -27,5 +29,7 @@ globalRouter.get(routes.scope, scope);
 globalRouter.get(routes.variableKeyword, variableKeyword);
 globalRouter.get(routes.propertyAttribute, propertyAttribute);
 globalRouter.get(routes.constructor, constructor);
+globalRouter.get(routes.prototype, prototype);
+globalRouter.get(routes.thisKeyword, thisKeyword);
 
 export default globalRouter;

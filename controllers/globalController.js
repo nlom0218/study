@@ -41,3 +41,11 @@ export const propertyAttribute = (req, res) => {
 export const constructor = (req, res) => {
   res.render("constructor", { pageTitle: "constructor" });
 };
+
+export const prototype = (req, res) => {
+  res.render("prototype", { pageTitle: "Prototype" });
+};
+
+export const thisKeyword = (req, res) => {
+  res.render("thisKeyword", { pageTitle: "This" });
+};
