@@ -11,3 +11,4 @@ Study JavaScript and Node.js, Express
 20-10-17: Varialbe Keyword, Property Attribute.<p>
 20-10-18: Constructor<p>
 20-10-26: Prototype, This<p>
+20-10-26: Closure<p>

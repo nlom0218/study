@@ -49,3 +49,7 @@ export const prototype = (req, res) => {
 export const thisKeyword = (req, res) => {
   res.render("thisKeyword", { pageTitle: "This" });
 };
+
+export const closure = (req, res) => {
+  res.render("closure", { pageTitle: "Closure" });
+};

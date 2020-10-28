@@ -11,6 +11,7 @@ const PROPERTY_ATTRIBUTE = "/property-attribute";
 const CONSTRUCTOR = "/consturctor";
 const PROTOTYPE = "/prototype";
 const THIS_KEYWORD = "/this-keyword";
+const CLOSURE = "/closure";
 
 const routes = {
   home: HOME,
@@ -26,6 +27,7 @@ const routes = {
   constructor: CONSTRUCTOR,
   prototype: PROTOTYPE,
   thisKeyword: THIS_KEYWORD,
+  closure: CLOSURE,
 };
 
 export default routes;

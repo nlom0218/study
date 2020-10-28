@@ -1,20 +1,12 @@
-// 실행 컨텍스트
-
-var x = 1;
-const y = 2;
-
-function foo(a) {
-  var x = 3;
-  const y = 4;
-
-  function bar(b) {
-    const z = 5;
-    console.log(a + b + x + y + z);
-  }
-  bar(10);
+function foo(param, ...rest) {
+  console.log(param);
+  console.log(rest);
 }
+foo(1, 2, 3, 4, 5);
 
-foo(20);
-
-let ass = 3;
-console.log(ass);
+function bar(param1, param2, ...rest) {
+  console.log(param1);
+  console.log(param2);
+  console.log(rest);
+}
+bar(1, 2, 3, 4, 5);
