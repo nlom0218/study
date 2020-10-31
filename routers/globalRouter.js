@@ -16,6 +16,7 @@ import {
   thisKeyword,
   closure,
   array,
+  number,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -35,5 +36,6 @@ globalRouter.get(routes.prototype, prototype);
 globalRouter.get(routes.thisKeyword, thisKeyword);
 globalRouter.get(routes.closure, closure);
 globalRouter.get(routes.array, array);
+globalRouter.get(routes.number, number);
 
 export default globalRouter;

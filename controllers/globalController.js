@@ -57,3 +57,7 @@ export const closure = (req, res) => {
 export const array = (req, res) => {
   res.render("array", { pageTitle: "Array" });
 };
+
+export const number = (req, res) => [
+  res.render("number", { pageTitle: "Number" }),
+];
