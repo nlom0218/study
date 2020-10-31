@@ -53,3 +53,7 @@ export const thisKeyword = (req, res) => {
 export const closure = (req, res) => {
   res.render("closure", { pageTitle: "Closure" });
 };
+
+export const array = (req, res) => {
+  res.render("array", { pageTitle: "Array" });
+};

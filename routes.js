@@ -12,6 +12,7 @@ const CONSTRUCTOR = "/consturctor";
 const PROTOTYPE = "/prototype";
 const THIS_KEYWORD = "/this-keyword";
 const CLOSURE = "/closure";
+const ARRAY = "/array";
 
 const routes = {
   home: HOME,
@@ -28,6 +29,7 @@ const routes = {
   prototype: PROTOTYPE,
   thisKeyword: THIS_KEYWORD,
   closure: CLOSURE,
+  array: ARRAY,
 };
 
 export default routes;
