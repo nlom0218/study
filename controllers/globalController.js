@@ -58,6 +58,10 @@ export const array = (req, res) => {
   res.render("array", { pageTitle: "Array" });
 };
 
-export const number = (req, res) => [
-  res.render("number", { pageTitle: "Number" }),
-];
+export const number = (req, res) => {
+  res.render("number", { pageTitle: "Number" });
+};
+
+export const math = (req, res) => {
+  res.render("math", { pageTitle: "Math" });
+};

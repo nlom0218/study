@@ -14,3 +14,4 @@ Study JavaScript and Node.js, Express
 20-10-26: Closure<p>
 20-10-30: Array<p>
 20-10-31: Number<p>
+20-11-01: Math<p>

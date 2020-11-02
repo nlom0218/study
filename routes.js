@@ -14,6 +14,7 @@ const THIS_KEYWORD = "/this-keyword";
 const CLOSURE = "/closure";
 const ARRAY = "/array";
 const NUMBER = "/number";
+const MATH = "/math";
 
 const routes = {
   home: HOME,
@@ -32,6 +33,7 @@ const routes = {
   closure: CLOSURE,
   array: ARRAY,
   number: NUMBER,
+  math: MATH,
 };
 
 export default routes;
