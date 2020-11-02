@@ -65,3 +65,7 @@ export const number = (req, res) => {
 export const math = (req, res) => {
   res.render("math", { pageTitle: "Math" });
 };
+
+export const date = (req, res) => {
+  res.render("date", { pagetTitle: "Date" });
+};

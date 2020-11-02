@@ -15,6 +15,7 @@ const CLOSURE = "/closure";
 const ARRAY = "/array";
 const NUMBER = "/number";
 const MATH = "/math";
+const DATE = "/date";
 
 const routes = {
   home: HOME,
@@ -34,6 +35,7 @@ const routes = {
   array: ARRAY,
   number: NUMBER,
   math: MATH,
+  date: DATE,
 };
 
 export default routes;

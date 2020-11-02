@@ -18,6 +18,7 @@ import {
   array,
   number,
   math,
+  date,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -39,5 +40,6 @@ globalRouter.get(routes.closure, closure);
 globalRouter.get(routes.array, array);
 globalRouter.get(routes.number, number);
 globalRouter.get(routes.math, math);
+globalRouter.get(routes.date, date);
 
 export default globalRouter;
