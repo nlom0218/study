@@ -16,6 +16,8 @@ const ARRAY = "/array";
 const NUMBER = "/number";
 const MATH = "/math";
 const DATE = "/date";
+const REGEXP = "/regexp";
+const STRING = "/string";
 
 const routes = {
   home: HOME,
@@ -36,6 +38,8 @@ const routes = {
   number: NUMBER,
   math: MATH,
   date: DATE,
+  regExp: REGEXP,
+  string: STRING,
 };
 
 export default routes;

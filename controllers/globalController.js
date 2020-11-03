@@ -69,3 +69,11 @@ export const math = (req, res) => {
 export const date = (req, res) => {
   res.render("date", { pagetTitle: "Date" });
 };
+
+export const regExp = (req, res) => {
+  res.render("regExp", { pageTitle: "Regular Expression" });
+};
+
+export const string = (req, res) => {
+  res.render("string", { pageTitle: "String" });
+};
