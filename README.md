@@ -17,3 +17,4 @@ Study JavaScript and Node.js, Express
 20-11-01: Math<p>
 20-11-02: Date<p>
 20-11-03: RegExp, String<p>
+20-11-04: Symbol<p>

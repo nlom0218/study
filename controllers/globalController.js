@@ -77,3 +77,7 @@ export const regExp = (req, res) => {
 export const string = (req, res) => {
   res.render("string", { pageTitle: "String" });
 };
+
+export const newsymbol = (req, res) => {
+  res.render("newsymbol", { pageTitle: "Symbol" });
+};

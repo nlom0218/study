@@ -18,6 +18,7 @@ const MATH = "/math";
 const DATE = "/date";
 const REGEXP = "/regexp";
 const STRING = "/string";
+const NEWSYMBOL = "/newsymbol";
 
 const routes = {
   home: HOME,
@@ -40,6 +41,7 @@ const routes = {
   date: DATE,
   regExp: REGEXP,
   string: STRING,
+  newsymbol: NEWSYMBOL,
 };
 
 export default routes;

@@ -21,6 +21,7 @@ import {
   date,
   regExp,
   string,
+  newsymbol,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -45,5 +46,6 @@ globalRouter.get(routes.math, math);
 globalRouter.get(routes.date, date);
 globalRouter.get(routes.regExp, regExp);
 globalRouter.get(routes.string, string);
+globalRouter.get(routes.newsymbol, newsymbol);
 
 export default globalRouter;
