@@ -19,6 +19,8 @@ const DATE = "/date";
 const REGEXP = "/regexp";
 const STRING = "/string";
 const NEWSYMBOL = "/newsymbol";
+const ITERABLE = "/iterable";
+const SPREAD = "/spread";
 
 const routes = {
   home: HOME,
@@ -42,6 +44,8 @@ const routes = {
   regExp: REGEXP,
   string: STRING,
   newsymbol: NEWSYMBOL,
+  iterable: ITERABLE,
+  spread: SPREAD,
 };
 
 export default routes;

@@ -18,3 +18,4 @@ Study JavaScript and Node.js, Express
 20-11-02: Date<p>
 20-11-03: RegExp, String<p>
 20-11-04: Symbol<p>
+20-11-05: Iterable, Spread<p>

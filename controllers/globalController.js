@@ -81,3 +81,11 @@ export const string = (req, res) => {
 export const newsymbol = (req, res) => {
   res.render("newsymbol", { pageTitle: "Symbol" });
 };
+
+export const iterable = (req, res) => {
+  res.render("iterable", { pageTitle: "Iterable" });
+};
+
+export const spread = (req, res) => {
+  res.render("spread", { pageTitle: "Spread" });
+};
