@@ -89,3 +89,11 @@ export const iterable = (req, res) => {
 export const spread = (req, res) => {
   res.render("spread", { pageTitle: "Spread" });
 };
+
+export const destructuring = (req, res) => {
+  res.render("destructuring", { pageTitle: "Destructuring" });
+};
+
+export const setMap = (req, res) => {
+  res.render("setMap", { pageTitle: "Set And Map" });
+};

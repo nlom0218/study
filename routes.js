@@ -21,6 +21,8 @@ const STRING = "/string";
 const NEWSYMBOL = "/newsymbol";
 const ITERABLE = "/iterable";
 const SPREAD = "/spread";
+const DESTRUC = "/destructuring";
+const SET_MAP = "/set-map";
 
 const routes = {
   home: HOME,
@@ -46,6 +48,8 @@ const routes = {
   newsymbol: NEWSYMBOL,
   iterable: ITERABLE,
   spread: SPREAD,
+  destructuring: DESTRUC,
+  setMap: SET_MAP,
 };
 
 export default routes;
