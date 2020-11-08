@@ -99,9 +99,13 @@ export const setMap = (req, res) => {
 };
 
 export const dom = (req, res) => {
-  res.render("dom", { pageTitle: "Dom" });
+  res.render("dom", { pageTitle: "DOM" });
 };
 
 export const dom2 = (req, res) => {
-  res.render("dom2", { pageTitle: "Dom2" });
+  res.render("dom2", { pageTitle: "DOM2" });
+};
+
+export const dom3 = (req, res) => {
+  res.render("dom3", { pageTitle: "DOM3" });
 };

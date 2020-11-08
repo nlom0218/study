@@ -28,6 +28,7 @@ import {
   setMap,
   dom,
   dom2,
+  dom3,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -59,5 +60,6 @@ globalRouter.get(routes.destructuring, destructuring);
 globalRouter.get(routes.setMap, setMap);
 globalRouter.get(routes.dom, dom);
 globalRouter.get(routes.dom2, dom2);
+globalRouter.get(routes.dom3, dom3);
 
 export default globalRouter;
