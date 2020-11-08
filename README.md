@@ -20,4 +20,4 @@ Study JavaScript and Node.js, Express
 20-11-04: Symbol<p>
 20-11-05: Iterable, Spread<p>
 20-11-06: Destructuring Assignment, Set And Map<p>
-20-11-07: DOM1<p>
+20-11-07: DOM1, DOM2<p>
