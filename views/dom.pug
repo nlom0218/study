@@ -1,0 +1,20 @@
+extends ./layouts/main.pug
+
+block content
+    h3.content-title 데이터 타입 39장 DOM
+    ul#fruits
+        li#apple.fruit.apple Apple
+        li#banana.fruit.banana Banana
+        li#orange.fruit.orange Orange
+    ul
+        li#html HTML
+    div.banana Banana(div)
+    ul.topic
+        li.coding.html HTML
+        li.coding.css CSS
+        li.coding.js JavaScript
+    div.color
+        div.red color1
+        div.red color2
+        div.red color3
+    script(src="/static/js/dom.js")

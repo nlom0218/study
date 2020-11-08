@@ -97,3 +97,11 @@ export const destructuring = (req, res) => {
 export const setMap = (req, res) => {
   res.render("setMap", { pageTitle: "Set And Map" });
 };
+
+export const dom = (req, res) => {
+  res.render("dom", { pageTitle: "Dom" });
+};
+
+export const dom2 = (req, res) => {
+  res.render("dom2", { pageTitle: "Dom2" });
+};

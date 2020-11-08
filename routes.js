@@ -23,6 +23,8 @@ const ITERABLE = "/iterable";
 const SPREAD = "/spread";
 const DESTRUC = "/destructuring";
 const SET_MAP = "/set-map";
+const DOM = "/dom";
+const DOM2 = "/dom2";
 
 const routes = {
   home: HOME,
@@ -50,6 +52,8 @@ const routes = {
   spread: SPREAD,
   destructuring: DESTRUC,
   setMap: SET_MAP,
+  dom: DOM,
+  dom2: DOM2,
 };
 
 export default routes;

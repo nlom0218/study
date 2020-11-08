@@ -26,6 +26,8 @@ import {
   spread,
   destructuring,
   setMap,
+  dom,
+  dom2,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -55,5 +57,7 @@ globalRouter.get(routes.iterable, iterable);
 globalRouter.get(routes.spread, spread);
 globalRouter.get(routes.destructuring, destructuring);
 globalRouter.get(routes.setMap, setMap);
+globalRouter.get(routes.dom, dom);
+globalRouter.get(routes.dom2, dom2);
 
 export default globalRouter;
