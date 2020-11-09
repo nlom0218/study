@@ -2,6 +2,16 @@ extends ./layouts/main.pug
 
 block content
     h3.content-title 데이터 타입 39장 DOM2(내용이 많아 하나더,,,)
-    h2.content-subtitle 요소 노드의 텍스트 조작
-
+    h2.content-subtitle 요소 노드의 텍스트 조작, DOM 조작
+    div#foo Hello
+    div#boo Hello
+        span  World
+    div#voo Hello
+        span  World
+    div#aoo Text
+    ul#fruits
+        li apple
+    ul#animal
+    ul#name
+        li Kim
     script(src="../static/js/dom3.js")

@@ -109,3 +109,7 @@ export const dom2 = (req, res) => {
 export const dom3 = (req, res) => {
   res.render("dom3", { pageTitle: "DOM3" });
 };
+
+export const dom4 = (req, res) => {
+  res.render("dom4", { pageTitle: "DOM4" });
+};

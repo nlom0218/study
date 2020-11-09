@@ -26,6 +26,7 @@ const SET_MAP = "/set-map";
 const DOM = "/dom";
 const DOM2 = "/dom2";
 const DOM3 = "/dom3";
+const DOM4 = "/dom4";
 
 const routes = {
   home: HOME,
@@ -56,6 +57,7 @@ const routes = {
   dom: DOM,
   dom2: DOM2,
   dom3: DOM3,
+  dom4: DOM4,
 };
 
 export default routes;
