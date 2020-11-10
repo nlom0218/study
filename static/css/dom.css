@@ -5,3 +5,44 @@
 .color .blue {
   color: blue;
 }
+
+.ex1 {
+  color: wheat;
+  margin-top: 10px;
+  height: 50px;
+  background-color: red;
+}
+
+.ex2 {
+  color: wheat;
+  margin-top: 10px;
+  height: 50px;
+  background-color: blue;
+}
+
+.box1 {
+  color: blue;
+}
+
+.box2 {
+  color: red;
+}
+
+.box3 {
+  margin-top: 10px;
+}
+
+.box4 {
+  background-color: green;
+}
+
+.parents {
+  color: red;
+}
+
+.child {
+  width: 100px;
+  height: 50px;
+  background-color: cornsilk;
+  border: 1px solid black;
+}
