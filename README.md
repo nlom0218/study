@@ -22,3 +22,4 @@ Study JavaScript and Node.js, Express
 20-11-06: Destructuring Assignment, Set And Map<p>
 20-11-08: DOM1(요소 노드 취득), DOM2(자식, 부모, 형제 노드 탐색, 노드 정보 취득)<p>
 20-11-09: DOM3(요소 노드의 텍스트 조작, DOM 조작)<p>
+20-11-10: DOM4(어트리뷰트, 스타일)
