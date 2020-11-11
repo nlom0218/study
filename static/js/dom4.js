@@ -173,3 +173,5 @@ console.log(computedStyle.color);
 
 // 기본 스타일
 console.log(computedStyle.display);
+
+console.log($text.style);

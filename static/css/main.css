@@ -11,3 +11,14 @@ main {
 a {
   text-decoration: none;
 }
+
+.content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content button {
+  margin-bottom: 10px;
+  width: 100px;
+}

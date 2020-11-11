@@ -113,3 +113,7 @@ export const dom3 = (req, res) => {
 export const dom4 = (req, res) => {
   res.render("dom4", { pageTitle: "DOM4" });
 };
+
+export const event1 = (req, res) => {
+  res.render("event1", { pageTitle: "Event1" });
+};

@@ -1,0 +1,13 @@
+.box {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff700;
+  border: 5px solid orange;
+  cursor: pointer;
+}
+
+#keyboard {
+  margin-top: 10px;
+  border: 2px solid black;
+}

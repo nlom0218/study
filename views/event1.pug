@@ -1,0 +1,21 @@
+extends ./layouts/main.pug
+
+block content
+    h3.content-title 40장 이벤트
+    h2.content-subtitle 이벤트 핸들러 등록, 이벤트 핸들러 제거
+    .content
+        button(onclick=`sayHi("Lee")`) Click me! 
+        button.btn Click me!
+        button.btn2 Click me!
+        button.btn3 Click me!
+        .xY
+            p 클릭하세요. 클릭한 곳의 좌표가 표시됩니다.
+            em.message
+        .onOff
+            input(id="checkBox" type="checkbox")
+            em.message2 off
+        .box
+        .keyboard
+            input#keyboard(type="text")
+            em.message3
+    script(src="../static/js/event1.js")
