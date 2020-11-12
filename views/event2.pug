@@ -1,0 +1,35 @@
+extends ./layouts/main.pug
+
+block content
+    h3.content-title 40장 이벤트
+    h2.content-subtitle 이벤트 전파, 이벤트 위임, DOM 요소의 기본 동작의 조작, 이벤트 핸들러 내부의 this
+    ul#fruits(style="margin-bottom:20px")
+        li#apple Apple
+        li#banana Banana
+        li#orange Orange
+    nav
+        ul#event2-animal
+            li#cat.active Cat
+            li#dog Dog
+            li#lion Lion
+    div(style="margin-top: 10px; margin-bottom:20px") 선택된 내비게이션 아이템: 
+        em.msg Cat
+    nav
+        ul#event2-person
+            li#man.active Man
+            li#woman Woman
+            li#baby Bady
+    div(style="margin-top:10px") 선택된 내비게이션 아이템: 
+        em.msg2 Man
+    a.link(href="https://www.google.com") go
+    input.check(type="checkbox")
+    .container(style="margin:20px 0px")
+        button.btn1 Button1
+        button.btn2 Button2
+        button.btn3 Button3
+    button(onclick="handleClick2()") Click me
+    button(onclick="handleClick3(this)") Click me
+    div(style="margin:20px 0px")
+        button.btn4 0
+        button.btn5 0
+    script(src="../static/js/event2.js")

@@ -28,6 +28,7 @@ const DOM2 = "/dom2";
 const DOM3 = "/dom3";
 const DOM4 = "/dom4";
 const EVENT1 = "/event1";
+const EVENT2 = "/event2";
 
 const routes = {
   home: HOME,
@@ -60,6 +61,7 @@ const routes = {
   dom3: DOM3,
   dom4: DOM4,
   event1: EVENT1,
+  event2: EVENT2,
 };
 
 export default routes;

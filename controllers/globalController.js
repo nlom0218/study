@@ -117,3 +117,7 @@ export const dom4 = (req, res) => {
 export const event1 = (req, res) => {
   res.render("event1", { pageTitle: "Event1" });
 };
+
+export const event2 = (req, res) => {
+  res.render("event2", { pageTitle: "Event2" });
+};

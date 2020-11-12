@@ -11,3 +11,22 @@
   margin-top: 10px;
   border: 2px solid black;
 }
+
+#event2-animal,
+#event2-person {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#event2-animal li,
+#event2-person li {
+  width: 100px;
+  cursor: pointer;
+}
+
+#event2-animal .active,
+#event2-person .active {
+  color: blue;
+  text-decoration: underline;
+}
