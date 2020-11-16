@@ -25,3 +25,4 @@ Study JavaScript and Node.js, Express
 20-11-10: DOM4(어트리뷰트, 스타일)<p>
 20-11-11: Event1(이벤트 핸들러 등록, 이벤트 핸들러 제거, 이벤트 객체)<p>
 20-11-12: Event2(이벤트 전파, 이벤트 위임, DOM 요소의 기본 동작의 조작, 이벤트 핸들러 내부의 this)<p>
+20-11-16: Timer

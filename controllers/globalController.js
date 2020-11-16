@@ -121,3 +121,7 @@ export const event1 = (req, res) => {
 export const event2 = (req, res) => {
   res.render("event2", { pageTitle: "Event2" });
 };
+
+export const timer = (req, res) => {
+  res.render("timer", { pageTitle: "Timer" });
+};

@@ -32,6 +32,7 @@ import {
   dom4,
   event1,
   event2,
+  timer,
 } from "../controllers/globalController";
 
 const globalRouter = express.Router();
@@ -67,5 +68,6 @@ globalRouter.get(routes.dom3, dom3);
 globalRouter.get(routes.dom4, dom4);
 globalRouter.get(routes.event1, event1);
 globalRouter.get(routes.event2, event2);
+globalRouter.get(routes.timer, timer);
 
 export default globalRouter;
